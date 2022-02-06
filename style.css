@@ -5,7 +5,9 @@
   font-family: "Lexend Deca";
 }
 
-.title {
+.title-1 {
+  margin-top: 25px;
+  margin-bottom: 40px;
   color: white;
   padding: 8px 0;
   border-radius: 12px;
@@ -120,6 +122,16 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+  body {
+    margin: 0;
+  }
+  main {
+    margin-right: 5%;
+  }
+  .title-1 {
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+  }
   .content {
     display: block;
     margin-left: 0%;
